@@ -1,0 +1,228 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+
+  .container {
+    position: relative;
+    max-width: 1440px;
+
+    .bigmap {
+      max-width: 1440px;
+    }
+
+    .color {
+      color: #FFFFFF;
+    }
+
+    .navigation {
+      display: flex;
+      position: absolute;
+      justify-content: space-around;
+      width: 100%;
+      top: 50px;
+
+      .navigation-right {
+        gap: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .load-sign {
+          border-radius: 45px;
+          border: 3px solid white;
+          width: 90px;
+          height: 36px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+
+    .centered-title {
+      width: 100%;
+      height: 100%;
+      top: 0%;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      gap: 30px;
+
+      .share-your {
+        text-align: center;
+        font-size: 52px;
+        font-weight: 400;
+        margin: 0;
+      }
+
+      .perfect-partner {
+        font-size: 24px;
+        font-weight: 400;
+      }
+
+      .border-holiday {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FF4E50;
+        border-radius: 45px;
+        width: 225px;
+
+        .holiday-partner {
+          font-size: 14px;
+          font-weight: 400;
+        }
+      }
+
+    }
+  }
+}
+
+main {
+  .container {
+    .margin-top-container {
+      margin-top: 80px;
+    }
+
+    .center-text {
+      text-align: center;
+      font-weight: 400;
+      font-size: 22px;
+      margin-bottom: 40px;
+    }
+
+    .container-images {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .container-two {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+
+      .see-imother-partners {
+        border-radius: 45px;
+        border: 2px solid #FF4E50;
+        height: 40px;
+        width: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FF4E50;
+        font-size: 14px;
+      }
+    }
+
+    .container-three {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+
+      .activity-ideas {
+        display: flex;
+        gap: 20px;
+      }
+    }
+
+    .container-four {
+      .text {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        color: #666666;
+      }
+
+      .input-insterests {
+        width: 279px;
+        height: 40px;
+        padding-left: 15px;
+        font-size: 14px;
+      }
+
+      .search {
+        border-radius: 45px;
+        border: 1px solid #FF4E50;
+        background-color: #FF4E50;
+        width: 172px;
+        height: 40px;
+        color: white;
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+footer {
+  margin-top: 80px;
+
+  .ruler-footer {
+    height: 2px;
+    background-color: #FF4E50;
+    margin-bottom: 30px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 940px;
+    margin: 0 auto;
+
+    .text-dreamshare {
+      color: #FF4E50;
+      font-size: 16px;
+    }
+
+    .text-partners {
+      color: #444444;
+      font-size: 14px;
+    }
+
+    .footer-column-two {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 14px;
+
+      .text-company {
+        color: #444444;
+        font-weight: 400;
+      }
+
+      .text-column-two {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        color: #999999;
+
+      }
+
+    }
+
+    .footer-column-four {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+
+      .text {
+        font-size: 10px;
+        color: #CCCCCC;
+        font-weight: 400;
+        letter-spacing: 1px;
+      }
+    }
+
+  }
+}
